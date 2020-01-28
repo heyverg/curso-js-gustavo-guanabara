@@ -1,0 +1,14 @@
+Analisador de número
+- Adc números de 1 a 100 em um 'select html'
+- Exibe o valor que foi colocado
+- Se o valor for repetido, informa erro e não adc
+- Se o número fora do espaço, informar erro
+- Se campo estiver vazio, informar erro
+- Botão para finalizar
+- Ao finalizar, informar total de números adcs
+- O maior e o menor número
+- A soma de todos os valores
+- A média entre eles
+- Botão 'finalizar' some ao ser clicado
+- Informa erro se não adc valor e clicar em finalizar
+- Ao adicionar outro número, limpar 'finalizar'

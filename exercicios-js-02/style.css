@@ -1,0 +1,37 @@
+body{
+    font: normal 16pt Tahoma;
+    background: rgb(218, 84, 51);
+}
+
+header{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+
+section{
+    height: 450px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px #00000088;
+}
+
+#title{
+    width: 500px;
+    margin: 5px auto;
+
+}
+
+#res{
+    width: 500px;
+    margin: 5px auto;
+
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+}

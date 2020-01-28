@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+    body {
+        background-color: brown;
+        color: white;
+        font: normal 18px Calibri;
+    }    
+    </style>
+</head>
+<body>
+    <h1>Iniciando com DOM - Document Object Model</h1>
+    <p>Aqui vai o resultado:</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript!</p>
+    <div>Clique em mim!</div>
+    <br>
+
+    <script>
+        let corpo = window.document.body; // Criada var e adicionada o body nela p poder modificar
+        let p1 = window.document.getElementsByTagName('p')[1]; // Criado p pegar tags que vc informar nos [] 
+        window.document.write('Replicando um p por DOM: ' + p1.innerHTML); // Escreve na tela pelo InnerHTML texto dentro da tag atraibuída a p1  
+        p1.style.color = 'black'; // Pela variável atraibui cor desejada
+        corpo.style.background = 'gray'; // Pela variável atraibui cor desejada
+    </script>
+</body>
+</html>
